@@ -9,9 +9,8 @@ const AboutMe = () => {
         <h2>About Me</h2>
         <p>Hi there! I'm Irene Gitau, a software enthusiast currently learning data structures and algorithms to improve my problem-solving abilities and enhance my understanding of software development principles. I'm passionate about collaborating on open-source projects and contributing to the tech community while learning from experienced developers.</p>
         <p>Feel free to ask me about my journey into software development, my favorite programming languages, or any tech-related questions you have!</p>
-        
-        <p>Fun fact: I'm a Beyoncé stan and a chess lover!</p>
-        <h3>Skills</h3>
+        <p class="fun-fact">Fun fact: I'm a Beyoncé stan and a chess lover!</p>
+        <h3>Technology Proficieny Skills</h3>
         <ul>
           <li>JavaScript</li>
           <li>React.js</li>
