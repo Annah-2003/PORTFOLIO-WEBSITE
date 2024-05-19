@@ -1,4 +1,7 @@
-/* styles/App.css */
+/* Importing Tailwind CSS base, components, and utilities */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* Global styles */
 body {
@@ -13,34 +16,32 @@ body {
 
 /* Header styles */
 header {
-  background: linear-gradient(135deg, #ff99cc, #ff66b3); /* Gradient background */
-  padding: 30px; /* Increased padding for more space */
+  background-image: linear-gradient(to right, #fuchsia, #red); /* Tailwind gradient background */
+  padding: 3rem; /* Increased padding for more space */
   border-bottom: 3px solid #ff3399; /* Darker pink border */
   color: #ffffff; /* Text color */
   text-align: center; /* Center align text */
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Tailwind shadow effect */
 }
 
 h1 {
   margin: 0;
   font-size: 2.5rem;
   color: #361d29; /* Pink header text color */
-
 }
 
 /* AboutMe styles */
 #about-me {
   background-color: #ffffff; /* White background color */
-  padding: 40px 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  padding: 2.5rem; /* Tailwind padding */
+  border-radius: 0.75rem; /* Tailwind rounded corners */
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* Tailwind shadow effect */
 }
 
 h2 {
   color: #ff66b3; /* Pink header text color */
   margin-top: 0;
   text-decoration: underline; /* Underline the header text */
-
 }
 
 ul {
@@ -57,17 +58,17 @@ li {
 /* Projects styles */
 #projects {
   background-color: #ffe6f2; /* Light pink background color */
-  padding: 40px 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  padding: 2.5rem; /* Tailwind padding */
+  border-radius: 0.75rem; /* Tailwind rounded corners */
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* Tailwind shadow effect */
 }
 
 .project {
   background-color: #ffffff; /* White background color */
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  padding: 1.25rem; /* Tailwind padding */
+  margin-bottom: 1.25rem; /* Tailwind margin */
+  border-radius: 0.5rem; /* Tailwind rounded corners */
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1); /* Tailwind shadow effect */
 }
 
 .project h3 {
@@ -84,12 +85,11 @@ li {
 }
 
 /* ContactMe styles */
-* ContactMe styles */
 #contact-me {
   background-color: #ffffff; /* White background color */
-  padding: 40px 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  padding: 2.5rem; /* Tailwind padding */
+  border-radius: 0.75rem; /* Tailwind rounded corners */
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1); /* Tailwind shadow effect */
 }
 
 form {
@@ -98,7 +98,7 @@ form {
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem; /* Tailwind margin */
 }
 
 label {
@@ -111,8 +111,8 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625rem; /* Tailwind padding */
+  border-radius: 0.3125rem; /* Tailwind rounded corners */
   border: 1px solid #dddddd; /* Light gray border */
 }
 
@@ -124,8 +124,8 @@ button[type="submit"] {
   background-color: #ff66b3; /* Pink button background color */
   color: #ffffff; /* White button text color */
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.625rem 1.25rem; /* Tailwind padding */
+  border-radius: 0.3125rem; /* Tailwind rounded corners */
   cursor: pointer;
 }
 
